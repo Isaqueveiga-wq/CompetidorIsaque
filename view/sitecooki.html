@@ -20,7 +20,9 @@
                 <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
                     <div class="bg-dark p-4">
                         <h5 class="text-body-emphasis h4">Collapsed content</h5>
-                        <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+                        <ul>
+                            li
+                        </ul>
                     </div>
                 </div>
                 <nav class="navbar navbar-dark bg-dark">
@@ -59,7 +61,7 @@
         <div class="row mb-2">
             <div class="col-12 col-md-4"></div>
             <div class="col-12 col-md-4">
-                <div class="card h-50 " style="width: 94vw;">
+                <div class="card " style="width: 94vw;">
                     <img src="img/confeitaria.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <p class="card-text">No nosso site de receitas de cookie, você encontra uma grande variedade de
@@ -73,14 +75,55 @@
             </div>
             <div class="col-12 col-md-4"></div>
         </div>
-
-        <div class="row">
+        <div class="row mb-2">
             <div class="col-12 col-md-4"></div>
-            <div class="col-12 col-md-4 bg-black">
-                <p class="text-center text-white">@2026-Aqui você encontra as melhores receitas !</p>
+            <div class="col-12 col-md-4">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Nome.</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1"
+                            placeholder="Digite seu nome">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Numero para contato.</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1"
+                            placeholder="Numero de telefone para contato">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Endereço.</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1"
+                            placeholder="Estado/Cidade/Bairro/Rua/Numero">
+                    </div>
+                    <div class="mb-3">
+                        <label for="example" class="form-label">Opçoes de cookie.</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option value="1">Chocolate</option>
+                            <option value="2">Morango</option>
+                            <option value="3">Nozes</option>
+                        </select>
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Quantidade de cookies.</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <button type="submit" class="btn btn-dark">Enviar pedido</button>
+                </form>
             </div>
             <div class="col-12 col-md-4"></div>
         </div>
+        <footer>
+            <div class="row">
+                <div class="col-12 col-md-4"></div>
+                <div class="col-12 col-md-4 bg-black">
+                    <p class="text-center text-white">@2026-Aqui você encontra as melhores receitas !</p>
+                </div>
+                <div class="col-12 col-md-4"></div>
+            </div>
+        </footer>
+
 
     </div>
     <script src="js/bootstrap.min.js"></script>
